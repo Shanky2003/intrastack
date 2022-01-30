@@ -1,0 +1,40 @@
+commands ==== Description
+
+1. pwd ==== to find out the path of the current working directory
+
+2. cd  ==== to change the directory 
+    'cd ..' = to goto one directory up
+    'cd - ' = to goto previous directory
+    'cd'    = to goto stright to the home folder
+    'cd (dir name)'= to goto specific directory
+
+3. ls  ==== used to view the contents of directory
+    'ls -R' = list aal the files in the sub-directories as well
+    'ls -a' = ll show the hidden files
+    'ls -al'= will list the files & directories with detailed info like permission, size, ownner, etc.
+
+4. cat ==== used to read the content of the files
+    'cat > Filename = creates a new file
+    'cat filename1 filename2>filename3 = joins two files(1&2) & stores in File 3
+    'cat filename | tr a-z A-Z> output.txt = to convert a file to upper or lower case use
+
+5. cp ==== used to copy files
+    ' we can crate a copy of any file in  PICTURES directory directly using command
+         = cp scenery.jpg /home/username/Pictures
+6. mv ==== mv command is to move files as well as to rename files.
+    'mv file.txt /home/username/Documents' = used to move to specific directory
+    'mv oldname.txt newname.txt' = used to rename any file usig move command
+
+7. mkdir ==== use to make a new directory
+    'mkdir Music/Newfile' = to make new directory under Music
+    'mkdir -p Music/2020/Newfile' = (p= parents) used to create a directory in between two existing directories
+
+8. rmdir ==== to remove/delete any directory( it only allows to delete empty directories). 
+
+9. rm ==== used to delete  directories & the contents within them. (If we want to delete  the directory = as an alternative to rmdir = use ==== rm -r) 
+	{Note: Be very careful with this command and double-check which directory you are in. This will delete everything and there is no undo.}
+
+10. touch ==== allows to create a blank file 
+   'touch /home/username/document/Web.html' = to create a html file entiled under Web  under the documents Directory
+
+11. locate ====
